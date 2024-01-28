@@ -31,9 +31,9 @@ export default async function handler(
   let html: string = ''
 
   if (choice === 1) {
-    html = generateFarcasterFrame(`${BASE_URL}/happy.jpg`, choice)
+    html = generateFarcasterFrame(`${BASE_URL}/world.jpg`, choice)
   } else {
-    html = generateFarcasterFrame(`${BASE_URL}/threat.jpg`, choice)
+    html = generateFarcasterFrame(`${BASE_URL}/world.jpg`, choice)
   }
 
   return res.status(200).setHeader('Content-Type', 'text/html').send(html)
