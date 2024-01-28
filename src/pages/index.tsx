@@ -13,7 +13,6 @@ export default function Home() {
         <meta property="fc:frame:button:2" content="No" />
         <meta property="fc:frame:post_url" content={`${BASE_URL}/api/post`} />
       </Head>
-      Hello world
     </>
   )
 }
