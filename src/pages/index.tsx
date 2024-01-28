@@ -1,5 +1,7 @@
-import { BASE_URL } from '@/utils'
+// import { BASE_URL } from '@/utils'
 import Head from 'next/head'
+
+let BASE_URL = 'https://farcaster-frame-psi.vercel.app/'
 
 export default function Home() {
   return (
