@@ -1,7 +1,7 @@
 export const BASE_URL = process.env.BASE_URL
 
 // generate an html page with the relevant opengraph tags
-export function generateFarcasterFrame(image: string, choice: number) {
+export function generateFarcasterFrame(image, choice) {
   return `
     <!DOCTYPE html>
     <html lang="en">
